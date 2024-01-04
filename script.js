@@ -10,8 +10,8 @@ function playGame(player) {
   if (player === computer) {
     result = 'Remis';
   } else if (
-    (player === 'Kamień' && computer === 'Nożyczki')
-    (player === 'Papier' && computer === 'Kamień')
+    (player === 'Kamień' && computer === 'Nożyczki') ||
+    (player === 'Papier' && computer === 'Kamień') ||
     (player === 'Nożyczki' && computer === 'Papier')
   ) {
     result = 'Brawo wygrałeś!!!';
